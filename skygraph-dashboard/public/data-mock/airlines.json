@@ -1,0 +1,211 @@
+[
+  {
+    "key": "AAL",
+    "name": "American Airlines",
+    "iata": "AA",
+    "icao": "AAL",
+    "country": "United States",
+    "active": true,
+    "routeCount": 2354,
+    "countryCount": 54,
+    "airportCount": 350
+  },
+  {
+    "key": "DAL",
+    "name": "Delta Air Lines",
+    "iata": "DL",
+    "icao": "DAL",
+    "country": "United States",
+    "active": true,
+    "routeCount": 1980,
+    "countryCount": 57,
+    "airportCount": 325
+  },
+  {
+    "key": "UAL",
+    "name": "United Airlines",
+    "iata": "UA",
+    "icao": "UAL",
+    "country": "United States",
+    "active": true,
+    "routeCount": 1720,
+    "countryCount": 60,
+    "airportCount": 310
+  },
+  {
+    "key": "RYR",
+    "name": "Ryanair",
+    "iata": "FR",
+    "icao": "RYR",
+    "country": "Ireland",
+    "active": true,
+    "routeCount": 2484,
+    "countryCount": 37,
+    "airportCount": 225
+  },
+  {
+    "key": "THY",
+    "name": "Turkish Airlines",
+    "iata": "TK",
+    "icao": "THY",
+    "country": "Turkey",
+    "active": true,
+    "routeCount": 1350,
+    "countryCount": 120,
+    "airportCount": 315
+  },
+  {
+    "key": "CSN",
+    "name": "China Southern Airlines",
+    "iata": "CZ",
+    "icao": "CSN",
+    "country": "China",
+    "active": true,
+    "routeCount": 1450,
+    "countryCount": 40,
+    "airportCount": 210
+  },
+  {
+    "key": "DLH",
+    "name": "Lufthansa",
+    "iata": "LH",
+    "icao": "DLH",
+    "country": "Germany",
+    "active": true,
+    "routeCount": 1200,
+    "countryCount": 82,
+    "airportCount": 220
+  },
+  {
+    "key": "UAE",
+    "name": "Emirates",
+    "iata": "EK",
+    "icao": "UAE",
+    "country": "United Arab Emirates",
+    "active": true,
+    "routeCount": 890,
+    "countryCount": 85,
+    "airportCount": 160
+  },
+  {
+    "key": "AFR",
+    "name": "Air France",
+    "iata": "AF",
+    "icao": "AFR",
+    "country": "France",
+    "active": true,
+    "routeCount": 940,
+    "countryCount": 78,
+    "airportCount": 190
+  },
+  {
+    "key": "BAW",
+    "name": "British Airways",
+    "iata": "BA",
+    "icao": "BAW",
+    "country": "United Kingdom",
+    "active": true,
+    "routeCount": 880,
+    "countryCount": 75,
+    "airportCount": 185
+  },
+  {
+    "key": "QFA",
+    "name": "Qantas",
+    "iata": "QF",
+    "icao": "QFA",
+    "country": "Australia",
+    "active": true,
+    "routeCount": 540,
+    "countryCount": 25,
+    "airportCount": 95
+  },
+  {
+    "key": "SIA",
+    "name": "Singapore Airlines",
+    "iata": "SQ",
+    "icao": "SIA",
+    "country": "Singapore",
+    "active": true,
+    "routeCount": 480,
+    "countryCount": 36,
+    "airportCount": 75
+  },
+  {
+    "key": "AIC",
+    "name": "Air India",
+    "iata": "AI",
+    "icao": "AIC",
+    "country": "India",
+    "active": true,
+    "routeCount": 420,
+    "countryCount": 30,
+    "airportCount": 90
+  },
+  {
+    "key": "KLM",
+    "name": "KLM Royal Dutch Airlines",
+    "iata": "KL",
+    "icao": "KLM",
+    "country": "Netherlands",
+    "active": true,
+    "routeCount": 620,
+    "countryCount": 68,
+    "airportCount": 145
+  },
+  {
+    "key": "IBE",
+    "name": "Iberia",
+    "iata": "IB",
+    "icao": "IBE",
+    "country": "Spain",
+    "active": true,
+    "routeCount": 510,
+    "countryCount": 45,
+    "airportCount": 110
+  },
+  {
+    "key": "PAA",
+    "name": "Pan American World Airways",
+    "iata": "PA",
+    "icao": "PAA",
+    "country": "United States",
+    "active": false,
+    "routeCount": null,
+    "countryCount": null,
+    "airportCount": null
+  },
+  {
+    "key": "TWA",
+    "name": "Trans World Airlines",
+    "iata": "TW",
+    "icao": "TWA",
+    "country": "United States",
+    "active": false,
+    "routeCount": null,
+    "countryCount": null,
+    "airportCount": null
+  },
+  {
+    "key": "SWR-OLD",
+    "name": "Swissair",
+    "iata": "SR",
+    "icao": "SWR",
+    "country": "Switzerland",
+    "active": false,
+    "routeCount": null,
+    "countryCount": null,
+    "airportCount": null
+  },
+  {
+    "key": "BOA",
+    "name": "British Overseas Airways",
+    "iata": "BA",
+    "icao": "BOA",
+    "country": "United Kingdom",
+    "active": false,
+    "routeCount": null,
+    "countryCount": null,
+    "airportCount": null
+  }
+]

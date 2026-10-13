@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Dark Theme (Default) */
+  --bg: #070B14;
+  --bg-elev: #0E1525;
+  --bg-elev-2: #141D33;
+  --border: #1F2A44;
+  --text: #E6EBF5;
+  --text-muted: #8A97B4;
+  --primary: #22D3EE;
+  --secondary: #8B5CF6;
+  --accent: #F59E0B;
+  --success: #34D399;
+  --danger: #F87171;
+}
+
+.light {
+  /* Light Theme */
+  --bg: #F6F8FC;
+  --bg-elev: #FFFFFF;
+  --bg-elev-2: #EDF2F7;
+  --border: #E2E8F0;
+  --text: #0B1220;
+  --text-muted: #64748B;
+  --primary: #0891B2;
+  --secondary: #7C3AED;
+  --accent: #D97706;
+  --success: #059669;
+  --danger: #E11D48;
+}
+
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.15;
+  }
+}
+
+/* Background radial glow gradients */
+.bg-radial-glow {
+  background-image: 
+    radial-gradient(60% 40% at 10% 0%, rgba(34, 211, 238, 0.08), transparent),
+    radial-gradient(50% 35% at 90% 0%, rgba(139, 92, 246, 0.08), transparent);
+}
+
+/* Gradient text utilities */
+.text-gradient {
+  background: linear-gradient(90deg, #22D3EE, #8B5CF6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-amber {
+  background: linear-gradient(90deg, #F59E0B, #FB923C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Card top border glow */
+.card-glow-top {
+  position: relative;
+}
+
+.card-glow-top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(34, 211, 238, 0.4), transparent);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  pointer-events: none;
+}
+
+/* Tabular nums for data display */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Shimmer keyframe for Skeleton */
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}

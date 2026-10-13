@@ -1,0 +1,402 @@
+[
+  {
+    "iata": "ATL",
+    "name": "Hartsfield Jackson Atlanta Intl",
+    "city": "Atlanta",
+    "country": "United States",
+    "pagerank": 0.00842,
+    "degree": 915
+  },
+  {
+    "iata": "PEK",
+    "name": "Beijing Capital Intl",
+    "city": "Beijing",
+    "country": "China",
+    "pagerank": 0.00789,
+    "degree": 824
+  },
+  {
+    "iata": "LHR",
+    "name": "London Heathrow",
+    "city": "London",
+    "country": "United Kingdom",
+    "pagerank": 0.00765,
+    "degree": 710
+  },
+  {
+    "iata": "ORD",
+    "name": "Chicago O'Hare Intl",
+    "city": "Chicago",
+    "country": "United States",
+    "pagerank": 0.00741,
+    "degree": 852
+  },
+  {
+    "iata": "HND",
+    "name": "Tokyo Haneda Intl",
+    "city": "Tokyo",
+    "country": "Japan",
+    "pagerank": 0.00712,
+    "degree": 640
+  },
+  {
+    "iata": "CDG",
+    "name": "Charles de Gaulle Intl",
+    "city": "Paris",
+    "country": "France",
+    "pagerank": 0.00695,
+    "degree": 688
+  },
+  {
+    "iata": "DFW",
+    "name": "Dallas Fort Worth Intl",
+    "city": "Dallas",
+    "country": "United States",
+    "pagerank": 0.00681,
+    "degree": 780
+  },
+  {
+    "iata": "FRA",
+    "name": "Frankfurt Airport",
+    "city": "Frankfurt",
+    "country": "Germany",
+    "pagerank": 0.00674,
+    "degree": 704
+  },
+  {
+    "iata": "DXB",
+    "name": "Dubai Intl",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "pagerank": 0.00652,
+    "degree": 620
+  },
+  {
+    "iata": "AMS",
+    "name": "Amsterdam Airport Schiphol",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "pagerank": 0.00639,
+    "degree": 648
+  },
+  {
+    "iata": "HKG",
+    "name": "Hong Kong Intl",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "pagerank": 0.00615,
+    "degree": 590
+  },
+  {
+    "iata": "SIN",
+    "name": "Singapore Changi",
+    "city": "Singapore",
+    "country": "Singapore",
+    "pagerank": 0.00598,
+    "degree": 560
+  },
+  {
+    "iata": "IST",
+    "name": "Istanbul Airport",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "pagerank": 0.00589,
+    "degree": 610
+  },
+  {
+    "iata": "CAN",
+    "name": "Guangzhou Baiyun Intl",
+    "city": "Guangzhou",
+    "country": "China",
+    "pagerank": 0.00574,
+    "degree": 580
+  },
+  {
+    "iata": "JFK",
+    "name": "John F Kennedy Intl",
+    "city": "New York",
+    "country": "United States",
+    "pagerank": 0.00561,
+    "degree": 540
+  },
+  {
+    "iata": "DEN",
+    "name": "Denver Intl",
+    "city": "Denver",
+    "country": "United States",
+    "pagerank": 0.00548,
+    "degree": 690
+  },
+  {
+    "iata": "ICN",
+    "name": "Incheon Intl",
+    "city": "Seoul",
+    "country": "South Korea",
+    "pagerank": 0.00532,
+    "degree": 520
+  },
+  {
+    "iata": "BOM",
+    "name": "Chhatrapati Shivaji Maharaj Intl",
+    "city": "Mumbai",
+    "country": "India",
+    "pagerank": 0.00518,
+    "degree": 480
+  },
+  {
+    "iata": "DEL",
+    "name": "Indira Gandhi Intl",
+    "city": "Delhi",
+    "country": "India",
+    "pagerank": 0.00507,
+    "degree": 512
+  },
+  {
+    "iata": "MAD",
+    "name": "Adolfo Suárez Madrid Barajas",
+    "city": "Madrid",
+    "country": "Spain",
+    "pagerank": 0.00495,
+    "degree": 490
+  },
+  {
+    "iata": "BCN",
+    "name": "Josep Tarradellas Barcelona-El Prat",
+    "city": "Barcelona",
+    "country": "Spain",
+    "pagerank": 0.00482,
+    "degree": 440
+  },
+  {
+    "iata": "LAX",
+    "name": "Los Angeles Intl",
+    "city": "Los Angeles",
+    "country": "United States",
+    "pagerank": 0.00474,
+    "degree": 610
+  },
+  {
+    "iata": "PVG",
+    "name": "Shanghai Pudong Intl",
+    "city": "Shanghai",
+    "country": "China",
+    "pagerank": 0.00465,
+    "degree": 520
+  },
+  {
+    "iata": "MUC",
+    "name": "Munich Airport",
+    "city": "Munich",
+    "country": "Germany",
+    "pagerank": 0.00451,
+    "degree": 460
+  },
+  {
+    "iata": "SYD",
+    "name": "Sydney Kingsford Smith",
+    "city": "Sydney",
+    "country": "Australia",
+    "pagerank": 0.00438,
+    "degree": 380
+  },
+  {
+    "iata": "YYZ",
+    "name": "Toronto Pearson Intl",
+    "city": "Toronto",
+    "country": "Canada",
+    "pagerank": 0.00427,
+    "degree": 410
+  },
+  {
+    "iata": "LGW",
+    "name": "London Gatwick",
+    "city": "London",
+    "country": "United Kingdom",
+    "pagerank": 0.00416,
+    "degree": 390
+  },
+  {
+    "iata": "FCO",
+    "name": "Leonardo da Vinci Rome Fiumicino",
+    "city": "Rome",
+    "country": "Italy",
+    "pagerank": 0.00405,
+    "degree": 370
+  },
+  {
+    "iata": "KUL",
+    "name": "Kuala Lumpur Intl",
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "pagerank": 0.00396,
+    "degree": 395
+  },
+  {
+    "iata": "BKK",
+    "name": "Suvarnabhumi Airport",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "pagerank": 0.00388,
+    "degree": 430
+  },
+  {
+    "iata": "MEX",
+    "name": "Mexico City Intl Benito Juárez",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "pagerank": 0.00375,
+    "degree": 360
+  },
+  {
+    "iata": "GRU",
+    "name": "São Paulo/Guarulhos Intl",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "pagerank": 0.00366,
+    "degree": 350
+  },
+  {
+    "iata": "ZRH",
+    "name": "Zurich Airport",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "pagerank": 0.00355,
+    "degree": 340
+  },
+  {
+    "iata": "VIE",
+    "name": "Vienna Intl",
+    "city": "Vienna",
+    "country": "Austria",
+    "pagerank": 0.00344,
+    "degree": 330
+  },
+  {
+    "iata": "CPH",
+    "name": "Copenhagen Airport",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "pagerank": 0.00332,
+    "degree": 320
+  },
+  {
+    "iata": "OSL",
+    "name": "Oslo Gardermoen",
+    "city": "Oslo",
+    "country": "Norway",
+    "pagerank": 0.00321,
+    "degree": 300
+  },
+  {
+    "iata": "DOH",
+    "name": "Hamad Intl",
+    "city": "Doha",
+    "country": "Qatar",
+    "pagerank": 0.00315,
+    "degree": 370
+  },
+  {
+    "iata": "SFO",
+    "name": "San Francisco Intl",
+    "city": "San Francisco",
+    "country": "United States",
+    "pagerank": 0.00308,
+    "degree": 450
+  },
+  {
+    "iata": "MIA",
+    "name": "Miami Intl",
+    "city": "Miami",
+    "country": "United States",
+    "pagerank": 0.00299,
+    "degree": 420
+  },
+  {
+    "iata": "BOS",
+    "name": "Boston Logan Intl",
+    "city": "Boston",
+    "country": "United States",
+    "pagerank": 0.00291,
+    "degree": 380
+  },
+  {
+    "iata": "EWR",
+    "name": "Newark Liberty Intl",
+    "city": "Newark",
+    "country": "United States",
+    "pagerank": 0.00284,
+    "degree": 400
+  },
+  {
+    "iata": "SEA",
+    "name": "Seattle-Tacoma Intl",
+    "city": "Seattle",
+    "country": "United States",
+    "pagerank": 0.00278,
+    "degree": 390
+  },
+  {
+    "iata": "CLT",
+    "name": "Charlotte Douglas Intl",
+    "city": "Charlotte",
+    "country": "United States",
+    "pagerank": 0.00272,
+    "degree": 460
+  },
+  {
+    "iata": "IAH",
+    "name": "George Bush Intercontinental",
+    "city": "Houston",
+    "country": "United States",
+    "pagerank": 0.00265,
+    "degree": 440
+  },
+  {
+    "iata": "PHX",
+    "name": "Phoenix Sky Harbor Intl",
+    "city": "Phoenix",
+    "country": "United States",
+    "pagerank": 0.00258,
+    "degree": 380
+  },
+  {
+    "iata": "MEL",
+    "name": "Melbourne Airport",
+    "city": "Melbourne",
+    "country": "Australia",
+    "pagerank": 0.00251,
+    "degree": 290
+  },
+  {
+    "iata": "JNB",
+    "name": "O. R. Tambo Intl",
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "pagerank": 0.00245,
+    "degree": 270
+  },
+  {
+    "iata": "ARN",
+    "name": "Stockholm Arlanda",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "pagerank": 0.00238,
+    "degree": 280
+  },
+  {
+    "iata": "DUB",
+    "name": "Dublin Airport",
+    "city": "Dublin",
+    "country": "Ireland",
+    "pagerank": 0.00232,
+    "degree": 310
+  },
+  {
+    "iata": "BRU",
+    "name": "Brussels Airport",
+    "city": "Brussels",
+    "country": "Belgium",
+    "pagerank": 0.00226,
+    "degree": 290
+  }
+]

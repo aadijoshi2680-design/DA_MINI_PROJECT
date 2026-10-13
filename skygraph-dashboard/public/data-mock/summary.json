@@ -1,0 +1,11 @@
+{
+  "airports": 7658,
+  "airlines": 6160,
+  "activeAirlines": 1254,
+  "routes": 67664,
+  "countries": 237,
+  "avgDegree": 17.66,
+  "directShare": 96.8,
+  "codeshareShare": 14.5,
+  "droppedRoutes": 412
+}

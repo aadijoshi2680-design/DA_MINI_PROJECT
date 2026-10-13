@@ -1,0 +1,102 @@
+[
+  {
+    "country": "United States",
+    "active": 156,
+    "defunct": 940
+  },
+  {
+    "country": "Russia",
+    "active": 80,
+    "defunct": 280
+  },
+  {
+    "country": "United Kingdom",
+    "active": 45,
+    "defunct": 460
+  },
+  {
+    "country": "Germany",
+    "active": 38,
+    "defunct": 210
+  },
+  {
+    "country": "Canada",
+    "active": 37,
+    "defunct": 290
+  },
+  {
+    "country": "Australia",
+    "active": 27,
+    "defunct": 180
+  },
+  {
+    "country": "Spain",
+    "active": 24,
+    "defunct": 120
+  },
+  {
+    "country": "China",
+    "active": 23,
+    "defunct": 65
+  },
+  {
+    "country": "France",
+    "active": 22,
+    "defunct": 195
+  },
+  {
+    "country": "India",
+    "active": 20,
+    "defunct": 75
+  },
+  {
+    "country": "Italy",
+    "active": 18,
+    "defunct": 140
+  },
+  {
+    "country": "Japan",
+    "active": 17,
+    "defunct": 60
+  },
+  {
+    "country": "South Africa",
+    "active": 16,
+    "defunct": 85
+  },
+  {
+    "country": "Brazil",
+    "active": 15,
+    "defunct": 110
+  },
+  {
+    "country": "Mexico",
+    "active": 14,
+    "defunct": 95
+  },
+  {
+    "country": "Indonesia",
+    "active": 14,
+    "defunct": 68
+  },
+  {
+    "country": "Turkey",
+    "active": 12,
+    "defunct": 45
+  },
+  {
+    "country": "Switzerland",
+    "active": 11,
+    "defunct": 55
+  },
+  {
+    "country": "Netherlands",
+    "active": 10,
+    "defunct": 52
+  },
+  {
+    "country": "Sweden",
+    "active": 10,
+    "defunct": 70
+  }
+]
