@@ -7,4 +7,16 @@ export default defineConfig({
     port: 3000,
     open: false,
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor-framework': ['react', 'react-dom', 'react-router-dom', 'zustand', 'framer-motion'],
+          'vendor-echarts': ['echarts', 'echarts-for-react'],
+          'vendor-leaflet': ['leaflet', 'react-leaflet'],
+        },
+      },
+    },
+    chunkSizeWarningLimit: 800,
+  },
 });

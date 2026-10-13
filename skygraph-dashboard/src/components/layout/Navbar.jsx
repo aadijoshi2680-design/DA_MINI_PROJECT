@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Plane, Menu, X, Github, Moon, Sun } from 'lucide-react';
+import { trackEvent } from '../../analytics/ga';
 
 const NAV_ITEMS = [
   { label: 'Home', path: '/' },
@@ -17,6 +18,10 @@ export default function Navbar() {
   const toggleTheme = () => {
     setIsLightMode(!isLightMode);
     document.documentElement.classList.toggle('light');
+  };
+
+  const handleOutboundClick = (url) => {
+    trackEvent('outbound_click', { url });
   };
 
   return (
@@ -40,7 +45,7 @@ export default function Navbar() {
           </span>
         </NavLink>
 
-        {/* Desktop Nav - 3 items */}
+        {/* Desktop Nav - Exactly 3 items */}
         <nav className="hidden md:flex items-center gap-1" aria-label="Main Navigation">
           {NAV_ITEMS.map((item) => {
             const isActive = location.pathname === item.path;
@@ -67,7 +72,7 @@ export default function Navbar() {
           })}
         </nav>
 
-        {/* Right Actions: Theme Toggle + GitHub link + Mobile Hamburger */}
+        {/* Right Actions */}
         <div className="flex items-center gap-2">
           {/* Theme toggle */}
           <button
@@ -79,11 +84,12 @@ export default function Navbar() {
             {isLightMode ? <Moon className="w-4 h-4" /> : <Sun className="w-4 h-4" />}
           </button>
 
-          {/* GitHub link */}
+          {/* GitHub link with GA4 outbound_click event */}
           <a
-            href="https://github.com"
+            href="https://github.com/aadijoshi2680-design/DA_MINI_PROJECT"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => handleOutboundClick('https://github.com/aadijoshi2680-design/DA_MINI_PROJECT')}
             className="p-2 rounded-lg text-text-muted hover:text-text-main hover:bg-bg-elev border border-transparent hover:border-border transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
             aria-label="GitHub Repository"
             title="GitHub Repository"

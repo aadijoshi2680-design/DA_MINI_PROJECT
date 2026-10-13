@@ -7,14 +7,13 @@ import Button from './Button';
 
 /**
  * Design system ChartCard component
- * Specs from design.md section 6.2 & 7:
+ * Specs from design.md section 6.2 & 11:
  * - Title (H3)
- * - Insight subtitle (generated from data)
- * - "i" info tooltip explaining Neo4j graph metric / query
- * - Loading skeleton shimmer
- * - Error state with retry button
- * - Empty state fallback
- * - aria-label summarizing chart insight
+ * - Insight subtitle
+ * - "i" info tooltip
+ * - Skeleton shimmer & error & empty states
+ * - role="img" + aria-label
+ * - Visually-hidden accessible data table (.sr-only) for screen readers
  */
 export default function ChartCard({
   title,
@@ -29,12 +28,15 @@ export default function ChartCard({
   children,
   className = '',
   actionRight,
+  tableData = null, // Optional [{ label, value }, ...] for screen reader accessible data table
 }) {
+  const ariaDescription = `${title}. Insight: ${subtitle || 'No insight available'}`;
+
   return (
     <div
       className={`rounded-card border border-border bg-bg-elev p-5 sm:p-6 shadow-card flex flex-col justify-between transition-colors ${className}`}
       role="region"
-      aria-label={`${title}: ${subtitle || ''}`}
+      aria-label={ariaDescription}
     >
       {/* Header */}
       <div className="flex items-start justify-between gap-4 mb-4">
@@ -69,8 +71,8 @@ export default function ChartCard({
             <Tooltip content="Export chart image" position="left">
               <button
                 onClick={onDownload}
-                className="p-1.5 rounded-lg text-text-muted hover:text-text-main hover:bg-bg-elev-2 transition-colors border border-transparent hover:border-border"
-                aria-label="Download chart"
+                className="p-1.5 rounded-lg text-text-muted hover:text-text-main hover:bg-bg-elev-2 transition-colors border border-transparent hover:border-border focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                aria-label={`Export ${title} image`}
               >
                 <Download className="w-4 h-4" />
               </button>
@@ -85,7 +87,7 @@ export default function ChartCard({
         className="relative flex-1 flex flex-col justify-center w-full"
       >
         {loading ? (
-          <div className="w-full h-full flex flex-col justify-between gap-3 py-2">
+          <div className="w-full h-full flex flex-col justify-between gap-3 py-2" aria-busy="true">
             <Skeleton height="28px" width="40%" />
             <Skeleton height="70%" width="100%" />
             <div className="flex justify-between gap-4">
@@ -94,7 +96,7 @@ export default function ChartCard({
             </div>
           </div>
         ) : error ? (
-          <div className="flex flex-col items-center justify-center p-6 text-center rounded-xl bg-danger/5 border border-danger/20 my-auto">
+          <div className="flex flex-col items-center justify-center p-6 text-center rounded-xl bg-danger/5 border border-danger/20 my-auto" role="alert">
             <AlertCircle className="w-8 h-8 text-danger mb-2" />
             <h4 className="text-sm font-semibold text-text-main mb-1">
               Failed to load chart data
@@ -120,8 +122,28 @@ export default function ChartCard({
             className="my-auto border-none bg-transparent"
           />
         ) : (
-          <div className="w-full h-full flex-1" role="img" aria-label={subtitle || title}>
+          <div className="w-full h-full flex-1" role="img" aria-label={ariaDescription}>
             {children}
+            {/* Visually-Hidden Accessible Table for Screen Readers */}
+            {tableData && tableData.length > 0 && (
+              <table className="sr-only" aria-label={`Data table for ${title}`}>
+                <caption>{subtitle || title}</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Category</th>
+                    <th scope="col">Value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {tableData.map((row, i) => (
+                    <tr key={i}>
+                      <td>{row.label || row.name || row[0]}</td>
+                      <td>{row.value || row[1]}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            )}
           </div>
         )}
       </div>

@@ -1,8 +1,23 @@
 import React from 'react';
-import { Database, GitBranch, Shield, Heart } from 'lucide-react';
+import { Database, GitBranch, Shield, ExternalLink } from 'lucide-react';
+import { trackEvent } from '../../analytics/ga';
+import useData from '../../data/useData';
 
 export default function Footer() {
   const isMock = import.meta.env.VITE_USE_MOCK === 'true';
+  const { data: meta } = useData('META');
+
+  const handleOutbound = (url) => {
+    trackEvent('outbound_click', { url });
+  };
+
+  const formattedDate = meta?.generatedAt
+    ? new Date(meta.generatedAt).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+      })
+    : 'Oct 2026';
 
   return (
     <footer className="w-full border-t border-border/80 bg-bg-elev/40 backdrop-blur-sm mt-auto py-10 transition-colors">
@@ -39,7 +54,20 @@ export default function Footer() {
         {/* Bottom meta row */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-text-muted text-center sm:text-left">
           <div className="space-y-1">
-            <p>Data Source: OpenFlights (via Kaggle) • 7,658 airports • 6,160 airlines (1,254 active) • ~67k routes</p>
+            <p>
+              Data Source:{' '}
+              <a
+                href="https://openflights.org/data.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => handleOutbound('https://openflights.org/data.html')}
+                className="text-primary hover:underline inline-flex items-center gap-0.5"
+              >
+                <span>OpenFlights (via Kaggle)</span>
+                <ExternalLink className="w-3 h-3 inline" />
+              </a>{' '}
+              • 7,658 airports • 6,160 airlines (1,254 active) • ~67k routes • Data as of {formattedDate}
+            </p>
             <p className="flex items-center justify-center sm:justify-start gap-1">
               <Shield className="w-3.5 h-3.5 text-primary/70" />
               <span>Privacy note: Google Analytics 4 runs with strict IP anonymization</span>
