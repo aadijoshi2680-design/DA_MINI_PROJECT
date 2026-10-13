@@ -1,0 +1,95 @@
+{
+  "airlines": [
+    "American Airlines",
+    "Delta Air Lines",
+    "United Airlines",
+    "Ryanair",
+    "Lufthansa",
+    "Emirates",
+    "Turkish Airlines",
+    "British Airways"
+  ],
+  "regions": [
+    "North America",
+    "Europe",
+    "Asia",
+    "Middle East",
+    "Latin America",
+    "Africa",
+    "Oceania"
+  ],
+  "values": [
+    [
+      1850,
+      240,
+      95,
+      20,
+      140,
+      5,
+      4
+    ],
+    [
+      1540,
+      220,
+      110,
+      25,
+      80,
+      5,
+      0
+    ],
+    [
+      1320,
+      210,
+      125,
+      20,
+      40,
+      5,
+      0
+    ],
+    [
+      0,
+      2484,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      32,
+      890,
+      160,
+      68,
+      25,
+      25,
+      0
+    ],
+    [
+      45,
+      210,
+      310,
+      180,
+      20,
+      120,
+      5
+    ],
+    [
+      30,
+      640,
+      320,
+      160,
+      20,
+      180,
+      0
+    ],
+    [
+      65,
+      520,
+      140,
+      85,
+      30,
+      40,
+      0
+    ]
+  ]
+}

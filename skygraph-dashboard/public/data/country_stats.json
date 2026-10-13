@@ -1,0 +1,122 @@
+[
+  {
+    "country": "United States",
+    "code": "USA",
+    "continent": "North America",
+    "airports": 1512,
+    "routesOut": 13240,
+    "routesIn": 13180
+  },
+  {
+    "country": "China",
+    "code": "CHN",
+    "continent": "Asia",
+    "airports": 242,
+    "routesOut": 8120,
+    "routesIn": 8090
+  },
+  {
+    "country": "United Kingdom",
+    "code": "GBR",
+    "continent": "Europe",
+    "airports": 164,
+    "routesOut": 4850,
+    "routesIn": 4820
+  },
+  {
+    "country": "Spain",
+    "code": "ESP",
+    "continent": "Europe",
+    "airports": 48,
+    "routesOut": 3920,
+    "routesIn": 3900
+  },
+  {
+    "country": "Germany",
+    "code": "DEU",
+    "continent": "Europe",
+    "airports": 98,
+    "routesOut": 3810,
+    "routesIn": 3800
+  },
+  {
+    "country": "France",
+    "code": "FRA",
+    "continent": "Europe",
+    "airports": 132,
+    "routesOut": 3450,
+    "routesIn": 3430
+  },
+  {
+    "country": "Italy",
+    "code": "ITA",
+    "continent": "Europe",
+    "airports": 88,
+    "routesOut": 2980,
+    "routesIn": 2970
+  },
+  {
+    "country": "India",
+    "code": "IND",
+    "continent": "Asia",
+    "airports": 124,
+    "routesOut": 2750,
+    "routesIn": 2740
+  },
+  {
+    "country": "Russia",
+    "code": "RUS",
+    "continent": "Europe",
+    "airports": 260,
+    "routesOut": 2680,
+    "routesIn": 2650
+  },
+  {
+    "country": "Canada",
+    "code": "CAN",
+    "continent": "North America",
+    "airports": 430,
+    "routesOut": 2540,
+    "routesIn": 2520
+  },
+  {
+    "country": "Australia",
+    "code": "AUS",
+    "continent": "Oceania",
+    "airports": 260,
+    "routesOut": 2190,
+    "routesIn": 2180
+  },
+  {
+    "country": "Japan",
+    "code": "JPN",
+    "continent": "Asia",
+    "airports": 95,
+    "routesOut": 2100,
+    "routesIn": 2090
+  },
+  {
+    "country": "Turkey",
+    "code": "TUR",
+    "continent": "Europe",
+    "airports": 54,
+    "routesOut": 2040,
+    "routesIn": 2030
+  },
+  {
+    "country": "United Arab Emirates",
+    "code": "ARE",
+    "continent": "Middle East",
+    "airports": 12,
+    "routesOut": 1890,
+    "routesIn": 1880
+  },
+  {
+    "country": "Brazil",
+    "code": "BRA",
+    "continent": "South America",
+    "airports": 210,
+    "routesOut": 1780,
+    "routesIn": 1770
+  }
+]

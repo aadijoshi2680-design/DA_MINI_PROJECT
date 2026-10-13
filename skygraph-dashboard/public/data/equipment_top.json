@@ -1,0 +1,77 @@
+[
+  {
+    "code": "320",
+    "name": "Airbus A320",
+    "count": 9812
+  },
+  {
+    "code": "738",
+    "name": "Boeing 737-800",
+    "count": 8640
+  },
+  {
+    "code": "73H",
+    "name": "Boeing 737-800 Winglets",
+    "count": 4210
+  },
+  {
+    "code": "319",
+    "name": "Airbus A319",
+    "count": 3920
+  },
+  {
+    "code": "321",
+    "name": "Airbus A321",
+    "count": 3240
+  },
+  {
+    "code": "77W",
+    "name": "Boeing 777-300ER",
+    "count": 2650
+  },
+  {
+    "code": "737",
+    "name": "Boeing 737",
+    "count": 2310
+  },
+  {
+    "code": "AT7",
+    "name": "ATR 72",
+    "count": 2120
+  },
+  {
+    "code": "788",
+    "name": "Boeing 787-8",
+    "count": 1840
+  },
+  {
+    "code": "789",
+    "name": "Boeing 787-9",
+    "count": 1730
+  },
+  {
+    "code": "CR9",
+    "name": "Bombardier CRJ-900",
+    "count": 1540
+  },
+  {
+    "code": "333",
+    "name": "Airbus A330-300",
+    "count": 1420
+  },
+  {
+    "code": "E75",
+    "name": "Embraer 175",
+    "count": 1310
+  },
+  {
+    "code": "332",
+    "name": "Airbus A330-200",
+    "count": 1205
+  },
+  {
+    "code": "763",
+    "name": "Boeing 767-300",
+    "count": 1110
+  }
+]

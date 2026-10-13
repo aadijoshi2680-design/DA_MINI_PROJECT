@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-10-13T03:38:52.603Z",
+  "source": "OpenFlights via Kaggle",
+  "version": "1.0.0-mock",
+  "activeAirlinesCount": 1254,
+  "totalAirportsCount": 7658,
+  "totalRoutesCount": 67664,
+  "isMock": true
+}
